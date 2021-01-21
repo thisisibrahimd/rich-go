@@ -4,20 +4,22 @@ An implementation of Discord's rich presence in Golang for Linux, macOS and Wind
 
 ## Installation
 
-Install `github.com/hugolgst/rich-go`:
+Install `github.com/thisisibrahimd/rich-go`:
 
 ```
-$ go get github.com/hugolgst/rich-go
+$ go get github.com/thisisibrahimd/rich-go
 ```
 
 ## Usage
 
 First of all import rich-go
+
 ```golang
-import "github.com/hugolgst/rich-go/client"
+import "github.com/thisisibrahimd/rich-go/client"
 ```
 
 then login by sending the first handshake
+
 ```golang
 err := client.Login("DISCORD_APP_ID")
 if err != nil {
@@ -26,6 +28,7 @@ if err != nil {
 ```
 
 and you can set the Rich Presence activity (parameters can be found :
+
 ```golang
 err = client.SetActivity(client.Activity{
 	State:      "Heyy!!!",
