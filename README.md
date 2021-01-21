@@ -1,4 +1,8 @@
-# rich-go [![Build Status](https://travis-ci.org/hugolgst/rich-go.svg?branch=master)](https://travis-ci.org/hugolgst/rich-go)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/rikkuness/discord-rpc)](https://pkg.go.dev/github.com/rikkuness/discord-rpc)
+
+#### Forked from [rich-go](https://github.com/hugolgst/rich-go)
+
+---
 
 An implementation of Discord's rich presence in Golang for Linux, macOS and Windows
 
@@ -51,19 +55,3 @@ if err != nil {
 	panic(err)
 }
 ```
-
-More details in the [example](https://github.com/ananagame/rich-go/blob/master/example/main.go)
-
-## Contributing
-
-1. Fork it (https://github.com/hugolgst/rich-go/fork)
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
-
-## Contributors
-
-- [hugolgst](https://github.com/hugolgst) - creator, maintainer
-- [donovansolms](https://github.com/donovansolms) - contributor
-- [heroslender](https://github.com/heroslender) - contributor
